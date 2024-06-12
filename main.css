@@ -1,0 +1,48 @@
+*{
+    font-size: 20px;
+    color: red;
+}
+
+#headingtwo{
+    font-size: 100px;
+    color: yellow;
+}
+
+.headingclass{
+    font-size: 50px;
+    color: teal;
+}
+h1{
+    font-size: 30px;
+    color:blue;
+    
+}
+/* div{
+    background: teal;
+    height: 100px;
+}
+h1{
+    color: blue;
+}
+p{
+    color:white;
+}
+.lower-div{
+    background: red;
+    height: 200px;
+
+.lower-p{
+    color: yellow;
+
+}   
+#heading2{ 
+  color: red;
+} */
+/*
+*
+tag: div
+class: upper-div
+id: headingtwo
+*/
+
+tag

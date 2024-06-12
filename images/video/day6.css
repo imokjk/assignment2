@@ -1,0 +1,34 @@
+.main-container{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: jkeyy;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+     /* animation-delay: 3s; */
+} 
+@keyframes jkeyy{
+    from{
+        background-color: teal;
+        /* transform: rotate(0); */
+    }
+    to{
+        background-color: maroon;
+        transform: translateX(100px);
+        border-radius: 100%;
+    }
+}
+p{
+    color: cyan;
+}
+/* P:hover {
+    /* transform: scale(0.5); */
+    /* transition: all 150ms cubic-bezier(.17, .67, 1, .53)   ;
+    transform: scaleY(2) translateX(20px) translateY(-20px) rotateZ(45deg);
+} */
+/* .main-container > p {
+    color: white;
+} */ 

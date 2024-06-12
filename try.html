@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        /* Additional styles can be added here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        label {
+            font-weight: bold;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="checkbox"],
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Feedback Form</h1>
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required/>
+            </li>
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required/>
+            </li>
+            <li>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required/>
+            </li>
+            <li>
+                <label>Please check all the emotions that apply to you:</label><br>
+                <input type="checkbox" id="angry" name="emotion" value="angry">
+                <label for="angry">Angry</label>
+                <input type="checkbox" id="sad" name="emotion" value="sad">
+                <label for="sad">Sad</label>
+                <input type="checkbox" id="ambivalent" name="emotion" value="ambivalent">
+                <label for="ambivalent">Ambivalent</label>
+            </li>
+            <li>
+                <label>How satisfied were you with our service?</label><br>
+                <input type="radio" id="very-satisfied" name="satisfaction" value="very-satisfied">
+                <label for="very-satisfied">Very satisfied</label>
+                <input type="radio" id="satisfied" name="satisfaction" value="satisfied">
+                <label for="satisfied">Satisfied</label>
+                <input type="radio" id="didnt-care" name="satisfaction" value="didnt-care">
+                <label for="didnt-care">Didn't care</label>
+                <input type="radio" id="dissatisfied" name="satisfaction" value="dissatisfied">
+                <label for="dissatisfied">Dissatisfied</label>
+                <input type="radio" id="very-dissatisfied" name="satisfaction" value="very-dissatisfied">
+                <label for="very-dissatisfied">Very dissatisfied</label>
+            </li>
+            <li>
+                <label for="comments">Further comments:</label><br>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </li>
+            <li>
+                <label for="bio-photo">Bio photo:</label><br>
+                <input type="file" id="bio-photo" name="bio-photo">
+            </li>
+            <li>
+                <label for="location">Location visited:</label><br>
+                <select id="location" name="location">
+                    <option value="">Choose...</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="China">China</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            </li>
+            <li>
+                <button type="submit">Submit</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>

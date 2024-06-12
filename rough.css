@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for login container */
+  .login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styling for login form */
+  .login-form {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for form inputs */
+  .login-form input {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for form actions */
+  .form-actions {
+    margin-top: 10px;
+  }
+  
+  /* Styling for right options */
+  .right-options {
+    margin-left: auto;
+  }
+  
+  /* Styling for option buttons */
+  .option-button {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for other options section */
+  .other-options {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for sign-up and forgot password links */
+  .right-options a {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+  }
